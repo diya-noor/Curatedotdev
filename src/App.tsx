@@ -2,7 +2,6 @@ import React from "react";
 import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "./components/ui/button";
 import {
-  CheckCircle,
   ThumbsUp,
   Award,
   FileText,
@@ -15,7 +14,7 @@ import {
   ChevronsUpDown,
   BadgeCent,
 } from "lucide-react";
-import { Progress } from "@/components/ui/progress";
+
 import { Table, TableBody, TableCell, TableRow } from "@/components/ui/table";
 import {
   Pagination,
@@ -23,8 +22,6 @@ import {
   PaginationEllipsis,
   PaginationItem,
   PaginationLink,
-  PaginationNext,
-  PaginationPrevious,
 } from "@/components/ui/pagination";
 
 // Types
